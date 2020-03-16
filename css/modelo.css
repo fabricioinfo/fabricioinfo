@@ -31,15 +31,23 @@ body{
 	background-color: #304030;
 	transition: 0.5s;
 }
+.container-fluid .card:hover .face.face1.hotmart, .container-fluid .card:active .face.face1{
+
+	background-color: #4D3636;
+}
 .container-fluid .card .face.face1 .content{
 	
 	transition: 0.5s;
 }
+
 .container-fluid .card .face.face1 .content h3{
 	margin: 10px 0 0;
 	padding: 0;
 	color: #346034;
 	text-align: center;
+}
+.container-fluid .card .face.face1.hotmart .content h3{
+	color: #804040;
 }
 .container-fluid .card:hover .face.face1 .content h3, .container-fluid .card:active .face.face1 .content h3{
 	
@@ -89,6 +97,9 @@ body{
 .navbar{
 	background-color: #304030;
 	min-height: 70px;
+}
+.navbar.hotmart{
+	background-color: #4D3636;
 }
 .navbar .nav-brand h3{
 	color: white;
