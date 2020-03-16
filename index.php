@@ -102,6 +102,28 @@
       </div>
 
     </div>
+
+    <div class="row">
+      <div class="col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 col-12">
+          <div class="card">
+              <div class="face face1">
+                  <div class="content">
+                    <h3><i class="fab fa-hotjar fa-4x"></i></h3>
+                    <h3>Aulas no Hotmart</h3>
+                  </div>
+              </div> 
+              <div class="face face2">
+                  <div class="content">
+                      <p>
+                        Acesse o link e veja as vídeo aulas de outros professores que vendem cursos pela hotmart. Todas com ótimas classificações no hotmart.
+                      </p>
+                      <a href="hotlink.php" target="_blank">Clique aqui</a>
+                  </div>
+              </div>   
+          </div>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
