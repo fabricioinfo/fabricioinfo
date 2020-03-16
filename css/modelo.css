@@ -25,7 +25,7 @@ body{
 	transform: translateY(150px);
 }
 .container-fluid .card:hover .face.face1, .container-fluid .card:active .face.face1{
-	cursor: pointer;
+
 	transform: translateY(0px);
 	/*background-color: #0C3BE8;*/
 	background-color: #304030;
