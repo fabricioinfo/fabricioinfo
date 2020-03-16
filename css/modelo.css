@@ -24,28 +24,28 @@ body{
 	z-index: 1;
 	transform: translateY(150px);
 }
-.container-fluid .card:hover .face.face1{
-	
+.container-fluid .card:hover .face.face1, .container-fluid .card:active .face.face1{
+	cursor: pointer;
 	transform: translateY(0px);
 	/*background-color: #0C3BE8;*/
 	background-color: #304030;
 	transition: 0.5s;
 }
 .container-fluid .card .face.face1 .content{
-	opacity: 0.2;
+	
 	transition: 0.5s;
 }
 .container-fluid .card .face.face1 .content h3{
 	margin: 10px 0 0;
 	padding: 0;
-	color: #fff;
+	color: #346034;
 	text-align: center;
 }
-.container-fluid .card:hover .face.face1 .content{
-	opacity: 1;
-	transition: 0.5s;
+.container-fluid .card:hover .face.face1 .content h3, .container-fluid .card:active .face.face1 .content h3{
+	
+	color: #fff;
 }
-.container-fluid .card:active .face.face1 .content{
+.container-fluid .card:hover .face.face1 .content, .container-fluid .card:active .face.face1 .content{
 	opacity: 1;
 	transition: 0.5s;
 }
@@ -65,11 +65,7 @@ body{
 	align-items: center;
 	
 }
-.container-fluid .card:hover .face.face2{
-	transform: translateY(0);
-	transition: 0.5s;
-}
-.container-fluid .card:active .face.face2{
+.container-fluid .card:hover .face.face2, .container-fluid .card:active .face.face2{
 	transform: translateY(0);
 	transition: 0.5s;
 }
